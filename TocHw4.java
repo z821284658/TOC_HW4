@@ -27,8 +27,7 @@ import java.util.regex.Pattern;
 public class TocHw4 {
 
     public static void main(String[] args) throws JSONException, IOException, InterruptedException {
-        	System.out.println("Please input the URL as argument.");
-        
+        	getPageData(args[0]);
     }
     
     
